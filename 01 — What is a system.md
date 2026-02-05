@@ -1,4 +1,5 @@
-# Chapter 01 — What a Computer Really Is  
+# Chapter 01 — What a Computer Really Is
+
 *A slow, deep, documentary-style introduction to the most misunderstood machine ever built*
 
 ---
@@ -40,8 +41,7 @@ So it feels natural to assume:
 
 > “This machine understands me.”
 
-It doesn’t.
-
+It doesn’t.  
 Not even a little.
 
 The intelligence you experience is **not inside the computer**.  
@@ -74,10 +74,9 @@ Just instructions.
 
 ---
 
-## The Only Model You Need Right Now 
+## The Only Model You Need Right Now
 
-Input - Process _ Output
-
+**Input → Process → Output**
 
 This applies to:
 - a calculator
@@ -128,6 +127,7 @@ Processing means:
 The computer does not know *why* it is doing anything.
 
 It only knows:
+
 > “If this condition is true, do this. Otherwise, do that.”
 
 No curiosity.  
@@ -169,10 +169,10 @@ A computer can:
 - never forget a step
 - never lose focus
 
-When simple rules are executed fast enough,
+When simple rules are executed fast enough,  
 complex behavior emerges.
 
-That complexity feels like intelligence.
+That complexity *feels* like intelligence.
 
 It isn’t.
 
@@ -180,222 +180,197 @@ It isn’t.
 
 ## A Painfully Honest Example
 
-Consider this code:
+Consider this logic:
 
-```js
-if (balance < 0) {
-  blockAccount();
-}
+If a number called `balance` is less than zero,  
+another instruction called `blockAccount` is executed.
 
-To you, this means:
+To you, this represents:
+- money
+- responsibility
+- risk
+- rules
 
-money
+To the computer, this represents:
+- comparing two numbers
+- checking a condition
+- jumping to another stored instruction
+- executing predefined steps
 
-responsibility
-
-risk
-
-rules
-
-To the computer, this means:
-
-compare two numbers
-
-if condition is true, jump to another instruction
-
-execute stored steps
-
-No concept of money.
-No concept of accounts.
+No concept of money.  
+No concept of accounts.  
 No concept of rules.
 
 Just comparisons and jumps.
 
-The Computer Is Not Your Partner
+---
+
+## The Computer Is Not Your Partner
 
 This is a dangerous assumption beginners make:
 
-“The computer will understand what I mean.”
+> “The computer will understand what I mean.”
 
 It won’t.
 
-The computer is not a collaborator.
-It is not forgiving.
+The computer is not a collaborator.  
+It is not forgiving.  
 It does not fill gaps.
 
-The computer is closer to a perfectly obedient idiot.
+The computer is closer to a **perfectly obedient idiot**.
 
-The Most Important Mental Model
+---
+
+## The Most Important Mental Model
 
 Lock this into your brain:
 
-A computer is a very fast, very obedient, very stupid worker.
+> **A computer is a very fast, very obedient, very stupid worker.**
 
-If you give correct instructions → perfect results
+If you give correct instructions, you get perfect results.  
+If you give wrong instructions, you get perfect mistakes.  
+If you forget instructions, nothing happens.
 
-If you give wrong instructions → perfect mistakes
-
-If you forget instructions → nothing happens
-
-The computer is innocent.
+The computer is innocent.  
 The instructions are guilty.
 
-Why Programming Feels Hard (At First)
+---
+
+## Why Programming Feels Hard (At First)
 
 Humans are vague by default.
 
 We say things like:
-
-“handle this properly”
-
-“make it faster”
-
-“fix edge cases”
-
-“clean this up”
+- “handle this properly”
+- “make it faster”
+- “fix edge cases”
+- “clean this up”
 
 Computers do not understand vibes.
 
 They need:
+- exact steps
+- exact conditions
+- exact outcomes
 
-exact steps
+Programming is not about typing code.  
+It is about thinking in **painfully clear steps**.
 
-exact conditions
+---
 
-exact outcomes
-
-Programming is not about typing code.
-It is about thinking in painfully clear steps.
-
-Intelligence vs Computation
+## Intelligence vs Computation
 
 Humans:
-
-infer
-
-guess
-
-assume
-
-feel
-
-adapt
+- infer
+- guess
+- assume
+- feel
+- adapt
 
 Computers:
-
-calculate
-
-compare
-
-store
-
-repeat
-
-obey
+- calculate
+- compare
+- store
+- repeat
+- obey
 
 This difference explains everything:
+- why computers beat humans at chess
+- why computers fail at common sense
+- why bugs exist
+- why instructions matter more than intention
 
-why computers beat humans at chess
+---
 
-why computers fail at common sense
-
-why bugs exist
-
-why instructions matter more than intention
-
-Why Bugs Are Inevitable
+## Why Bugs Are Inevitable
 
 A bug is not a mistake made by the computer.
 
 A bug is:
-
-an incomplete instruction
-
-a wrong assumption
-
-an unhandled case
-
-a misunderstanding by the programmer
+- an incomplete instruction
+- a wrong assumption
+- an unhandled case
+- a misunderstanding by the programmer
 
 The computer did exactly what it was told to do.
 
 Just not what you wanted.
 
-The Shift That Makes You a Developer
+---
+
+## The Shift That Makes You a Developer
 
 A beginner thinks:
 
-“The computer is broken.”
+> “The computer is broken.”
 
 A developer thinks:
 
-“My mental model is wrong.”
+> “My mental model is wrong.”
 
 That shift changes everything.
 
-Debugging stops being emotional.
+Debugging stops being emotional.  
 It becomes investigative.
 
-Why This Chapter Matters So Much
+---
+
+## Why This Chapter Matters So Much
 
 If you understand this chapter deeply:
-
-languages make more sense
-
-frameworks feel less magical
-
-debugging feels logical
-
-system design becomes clearer
+- languages make more sense
+- frameworks feel less magical
+- debugging feels logical
+- system design becomes clearer
 
 If you skip this:
-
-everything feels confusing
-
-you blame tools
-
-you memorize instead of understanding
+- everything feels confusing
+- you blame tools
+- you memorize instead of understanding
 
 Foundations decide everything.
 
-Pause and Reflect
+---
+
+## Pause and Reflect
 
 Before moving on, ask yourself:
 
-Do I truly believe computers understand things?
-
-Do I still expect them to “figure things out”?
-
+Do I truly believe computers understand things?  
+Do I still expect them to “figure things out”?  
 Am I clear about the difference between meaning and execution?
 
-If yes — good.
+If yes — good.  
 If not — reread this chapter.
 
 That’s normal.
 
-Closing Scene: Control, Not Conversation
+---
+
+## Closing Scene: Control, Not Conversation
 
 You are not learning how to talk to a thinking machine.
 
-You are learning how to control a powerful, mindless one.
+You are learning how to **control a powerful, mindless one**.
 
-Once you accept that,
-programming becomes less mystical —
+Once you accept that,  
+programming becomes less mystical —  
 and far more empowering.
 
-Coming Up Next
+---
 
-Now that you understand what a computer is,
+## Coming Up Next
+
+Now that you understand what a computer is,  
 the next question is unavoidable:
 
 What is a computer physically made of?
 
-CPU.
-Memory.
-Storage.
+CPU.  
+Memory.  
+Storage.  
 Circuits.
 
-That is Chapter 02.
+That is **Chapter 02**.
 
 Every single thing a computer does can be reduced to:
-
