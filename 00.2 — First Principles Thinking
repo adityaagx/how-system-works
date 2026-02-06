@@ -1,0 +1,293 @@
+# 00.2 — First Principles Thinking  
+*Episode 2: Destroying assumptions until only truth remains*
+
+---
+
+## Why This Chapter Exists
+
+Most confusion in tech does not come from complexity.
+
+It comes from **inherited thinking**.
+
+You learn:
+- Framework rules
+- Best practices
+- “Industry standards”
+- Stack opinions
+
+But you’re rarely told **why** those things exist.
+
+So when:
+- a rule breaks
+- a tool changes
+- a new paradigm appears
+
+Your knowledge collapses.
+
+This chapter exists to give you a weapon that survives **any tool, any framework, any era**:
+
+**First Principles Thinking**
+
+Not as a buzzword —  
+but as a mental survival skill.
+
+---
+
+## The Core Problem This Chapter Destroys
+
+Here’s the quiet trap most developers fall into:
+
+> “This is how it’s done.”
+
+Without asking:
+- Who decided?
+- For what constraints?
+- Under what assumptions?
+- In what era?
+- With what tradeoffs?
+
+That’s not engineering.
+
+That’s **tradition-following**.
+
+Tradition works — until reality changes.
+
+---
+
+## What First Principles Thinking Actually Means
+
+First principles thinking means:
+
+Breaking a problem down until:
+- You reach facts that cannot be reduced further
+- Everything above them must logically follow
+
+No authority.
+No trends.
+No vibes.
+
+Just:
+**cause → effect → consequence**
+
+In simple words:
+
+> Stop reasoning by analogy.  
+> Start reasoning from reality.
+
+---
+
+## Analogy Thinking vs First Principles Thinking
+
+### Analogy Thinking (Most People)
+
+- “React uses state like this”
+- “Databases should be normalized”
+- “Microservices scale better”
+- “AI models are smart”
+
+These are **conclusions**, not truths.
+
+They were correct *in a context*.
+
+---
+
+### First Principles Thinking (Engineers)
+
+- What problem does state solve?
+- What breaks when data is duplicated?
+- What creates bottlenecks at scale?
+- What can this system *not* know?
+
+Same topics.
+Radically different depth.
+
+---
+
+## A Simple Historical Example (Very Important)
+
+Before electricity, lighting meant:
+- candles
+- oil lamps
+- gas lamps
+
+People tried to make **better candles**.
+
+Brighter.
+Cleaner.
+Longer-lasting.
+
+Then someone asked a first-principles question:
+
+> “What is lighting actually solving?”
+
+Answer:
+**Visibility in darkness**
+
+Once you remove “candles” from the equation,
+electric lighting becomes obvious.
+
+First principles thinking **removes the object**  
+and keeps the **problem**.
+
+---
+
+## Why This Matters So Much in Technology
+
+Tech evolves insanely fast.
+
+If your knowledge is tied to:
+- React APIs
+- CSS tricks
+- Framework conventions
+- Library-specific patterns
+
+You will constantly feel behind.
+
+But if your knowledge is tied to:
+- constraints
+- tradeoffs
+- system behavior
+- human limits
+
+You age slower than the industry.
+
+---
+
+## First Principles in One Sentence
+
+Memorize this:
+
+**A first principle is a fact about reality that does not depend on tools, opinions, or trends.**
+
+Everything else is optional.
+
+---
+
+## Example: State (Preview of Future Chapters)
+
+Most people learn state like this:
+- “Use useState”
+- “Avoid prop drilling”
+- “Use Redux/Zustand/Recoil”
+
+First principles view:
+- The UI must reflect changing data
+- Change must be remembered over time
+- Multiple parts may depend on the same change
+- Humans expect consistency
+
+Frameworks are just **attempts** to manage this reality.
+
+When frameworks change — reality doesn’t.
+
+---
+
+## Why Beginners Struggle With First Principles
+
+Because first principles thinking is **mentally expensive**.
+
+It requires:
+- Slowing down
+- Questioning defaults
+- Sitting with uncertainty
+- Saying “I don’t know yet”
+
+Your brain prefers shortcuts.
+
+That’s why analogy thinking feels comfortable.
+
+But comfort creates fragility.
+
+---
+
+## The Engineer’s Loop (This Is Gold)
+
+When facing anything unfamiliar:
+
+1. What problem is being solved?
+2. What constraints exist?
+3. What must be true for this to work?
+4. What breaks if this assumption fails?
+5. What tradeoff is being accepted?
+
+If you can answer these, you’re thinking like an engineer —
+even if you’ve never used the tool before.
+
+---
+
+## Common Misconceptions
+
+### Misconception 1 — “First principles means reinvent everything”
+
+No.
+
+It means:
+- You understand *why* existing solutions exist
+- You know when to follow them
+- And when not to
+
+You stand on shoulders — but with open eyes.
+
+---
+
+### Misconception 2 — “This is only for geniuses”
+
+Wrong.
+
+This is for people willing to be **slow and honest**.
+
+Geniuses aren’t faster thinkers.
+They’re clearer thinkers.
+
+---
+
+### Misconception 3 — “This doesn’t apply to frontend”
+
+Frontend is where first principles matter most:
+- Human attention
+- Perceived performance
+- Visual clarity
+- Cognitive load
+
+UI is physics for the brain.
+
+---
+
+## Modern Relevance
+
+First principles thinking is why:
+- Senior engineers adapt faster
+- Framework hype doesn’t shake them
+- New tools feel familiar
+- AI doesn’t intimidate them
+
+They don’t learn tools.
+
+They recognize patterns repeating.
+
+---
+
+## Slow Takeaway
+
+Let this settle:
+
+**If you understand the problem deeply enough,  
+the solution becomes obvious — even before tools exist.**
+
+Everything we study next will keep asking:
+- What problem was this born to solve?
+- What constraint forced this shape?
+
+That’s how confusion disappears.
+
+---
+
+## What Comes Next
+
+Next episode:
+**00.3 — Abstraction vs Reality**
+
+This is where we learn:
+- Why abstractions save time
+- Why they also lie
+- And how engineers survive without getting lost in them
